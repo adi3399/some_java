@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('clonegit') {
       steps {
-        git(url: 'https://github.com/darealmc/some_java.git', branch: 'pipeline')  
+        git(url: 'https://github.com/darealmc/some_java.git', branch: 'pipeline')   
       }
     }
 
